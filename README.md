@@ -104,14 +104,14 @@ Calcula a média aritmética das notas, ignorando valores inválidos (NaN ou nul
 const atleta = new Atleta("Cesar Abascal", 30, 80, 1.70, [10, 9.34, 8.42, 10, 7.88]);
 
 // Exibir informações
-console.log(`Nome: ${atleta.obtemNomeAtleta()}`);
-console.log(`Idade: ${atleta.obtemIdadeAtleta()}`);
-console.log(`Peso: ${atleta.obtemPesoAtleta()}`);
-console.log(`Altura: ${atleta.obtemPesoAtleta()}`);
-console.log(`Notas: ${atleta.obtemNotasAtleta()}`);
-console.log(`Categoria: ${atleta.obtemCategoria()}`);
-console.log(`IMC: ${atleta.obtemIMC()}`);
-console.log(`Média válida: ${atleta.obtemMediaValida()}`);
+console.log("Nome: " + atleta.obtemNomeAtleta());
+console.log("Idade: " + atleta.obtemIdadeAtleta());
+console.log("Peso: " + atleta.obtemPesoAtleta());   
+console.log("Altura: " + atleta.altura);
+console.log("Notas: " + atleta.obtemNotasAtleta());
+console.log("Categoria: " + atleta.obtemCategoria());
+console.log("IMC: " + atleta.obtemIMC());
+console.log("Média Válida: " + atleta.obtemMediaValida());
 
 // Saída:
 // Nome: Cesar Abascal
