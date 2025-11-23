@@ -17,7 +17,7 @@ O projeto `dados-atletas` implementa uma classe `Atleta` que concentra informaç
 
 1. Clone o repositório:
 ```bash
-git clone https://github.com/nomedeusuario/dados-atletas.git
+git clone https://github.com/jekarllos/dados-atletas/dados-atletas.git
 cd dados-atletas
 ```
 
